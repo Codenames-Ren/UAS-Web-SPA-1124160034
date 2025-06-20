@@ -482,7 +482,8 @@ function clearAllHistory() {
         text: "Semua riwayat transaksi berhasil dihapus.",
         icon: "success",
         timer: 2000,
-        showConfirmButton: false,
+        showConfirmButton: true,
+        confirmButtonText: "OK"
       });
     }
   });
