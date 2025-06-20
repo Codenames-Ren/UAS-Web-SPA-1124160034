@@ -98,13 +98,13 @@ Pastikan Anda memiliki hal-hal berikut terpasang di sistem Anda:
 1. Clone repository ini
 
    ```sh
-   git clone https://github.com/Codenames-Ren/Perancangan-Web-UAS-1124160034.git
+   git clone https://github.com/Codenames-Ren/UAS-Web-SPA-1124160034.git
    ```
 
 2. Masuk ke direktori proyek
 
    ```sh
-   cd Perancangan-Web-UAS-1124160034
+   cd UAS-Web-SPA-1124160034
    ```
 
 3. Buka file `index.html` di browser Anda, atau gunakan live server:
@@ -115,6 +115,8 @@ Pastikan Anda memiliki hal-hal berikut terpasang di sistem Anda:
 
    # Menggunakan Node.js http-server
    npx http-server
+
+   # Static Menggunakan Live Server
    ```
 
 4. Akses aplikasi di `http://localhost:8000` (atau port yang ditampilkan)
@@ -166,7 +168,7 @@ List fitur yang ditambahkan untuk meningkatkan interaktifitas:
 
 4. **Sistem Kode Promo**:
    - `PROAI` - Diskon 10%
-   - `LEBARAN` - Potongan Rp 20.000
+   - `LEBARAN` - Potongan Rp 20.000 FLAT
    - `AISTUDENT` - Diskon 20% untuk pelajar
 
 ### Cara Penggunaan
@@ -213,7 +215,7 @@ List fitur yang ditambahkan untuk meningkatkan interaktifitas:
 - [ ] Integrasi API
 - [ ] Autentikasi pengguna
 
-Lihat [masalah terbuka](https://github.com/Codenames-Ren/Perancangan-Web-UAS-1124160034/issues) untuk daftar lengkap fitur yang diusulkan dan bug yang diketahui.
+Lihat [masalah terbuka](https://github.com/Codenames-Ren/UAS-Web-SPA-1124160034.git/issues) untuk daftar lengkap fitur yang diusulkan dan bug yang diketahui.
 
 <!-- KONTRIBUSI -->
 
@@ -231,8 +233,8 @@ Jika Anda memiliki saran untuk membuat proyek ini lebih baik, silakan fork repo 
 
 ### Kontributor teratas:
 
-<a href="https://github.com/Codenames-Ren/Perancangan-Web-UAS-1124160034/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Codenames-Ren/Perancangan-Web-UAS-1124160034" alt="gambar contrib.rocks" />
+<a href="https://github.com/Codenames-Ren/UAS-Web-SPA-1124160034/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Codenames-Ren/UAS-Web-SPA-1124160034" alt="gambar contrib.rocks" />
 </a>
 
 <!-- LISENSI -->
@@ -247,7 +249,7 @@ Didistribusikan di bawah Lisensi MIT. Lihat `LICENSE.txt` untuk informasi lebih 
 
 Codenames-Ren - [@CodeNamesRen](https://github.com/Codenames-Ren)
 
-Link Proyek: [https://github.com/Codenames-Ren/Perancangan-Web-UAS-1124160034](https://github.com/Codenames-Ren/Perancangan-Web-UAS-1124160034)
+Link Proyek: [https://github.com/Codenames-Ren/UAS-Web-SPA-1124160034](https://github.com/Codenames-Ren/UAS-Web-SPA-1124160034)
 
 <!-- PENGHARGAAN -->
 
@@ -264,16 +266,16 @@ Sumber daya dan alat yang membantu proyek ini:
 
 <!-- TAUTAN & GAMBAR MARKDOWN -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/Codenames-Ren/Perancangan-Web-UAS-1124160034.svg?style=for-the-badge
-[contributors-url]: https://github.com/Codenames-Ren/Perancangan-Web-UAS-1124160034/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Codenames-Ren/Perancangan-Web-UAS-1124160034.svg?style=for-the-badge
-[forks-url]: https://github.com/Codenames-Ren/Perancangan-Web-UAS-1124160034/network/members
-[stars-shield]: https://img.shields.io/github/stars/Codenames-Ren/Perancangan-Web-UAS-1124160034.svg?style=for-the-badge
-[stars-url]: https://github.com/Codenames-Ren/Perancangan-Web-UAS-1124160034/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Codenames-Ren/Perancangan-Web-UAS-1124160034.svg?style=for-the-badge
-[issues-url]: https://github.com/Codenames-Ren/Perancangan-Web-UAS-1124160034/issues
-[license-shield]: https://img.shields.io/github/license/Codenames-Ren/Perancangan-Web-UAS-1124160034.svg?style=for-the-badge
-[license-url]: https://github.com/Codenames-Ren/Perancangan-Web-UAS-1124160034/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/Codenames-Ren/UAS-Web-SPA-1124160034.svg?style=for-the-badge
+[contributors-url]: https://github.com/Codenames-Ren/UAS-Web-SPA-1124160034/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Codenames-Ren/UAS-Web-SPA-1124160034.svg?style=for-the-badge
+[forks-url]: https://github.com/Codenames-Ren/UAS-Web-SPA-1124160034/network/members
+[stars-shield]: https://img.shields.io/github/stars/Codenames-Ren/UAS-Web-SPA-1124160034.svg?style=for-the-badge
+[stars-url]: https://github.com/Codenames-Ren/UAS-Web-SPA-1124160034/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Codenames-Ren/UAS-Web-SPA-1124160034.svg?style=for-the-badge
+[issues-url]: https://github.com/Codenames-Ren/UAS-Web-SPA-1124160034/issues
+[license-shield]: https://img.shields.io/github/license/Codenames-Ren/UAS-Web-SPA-1124160034.svg?style=for-the-badge
+[license-url]: https://github.com/Codenames-Ren/UAS-Web-SPA-1124160034/blob/master/LICENSE.txt
 [HTML5.com]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
 [HTML5-url]: https://html.spec.whatwg.org/
 [TailwindCSS.com]: https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white
