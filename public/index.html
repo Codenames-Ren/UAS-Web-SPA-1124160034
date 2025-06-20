@@ -1,11 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gampang.in - Langganan AI</title>
+    <link rel="stylesheet" href="/public/css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!--Sweet Alert di styling manual untuk versi dark mode-->
+    <style>
+      .swal-popup-fix {
+        z-index: 9999 !important;
+      }
+
+      .swal-confirm-fix {
+        background-color: #3b82f6 !important;
+        border: none !important;
+        border-radius: 0.5rem !important;
+        padding: 0.75rem 1.5rem !important;
+        font-weight: 600 !important;
+        color: white !important;
+        cursor: pointer !important;
+        transition: background-color 0.2s ease !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        display: inline-block !important;
+      }
+
+      .swal-confirm-fix:hover {
+        background-color: #2563eb !important;
+      }
+
+      .swal-confirm-fix:focus {
+        outline: 2px solid #3b82f6 !important;
+        outline-offset: 2px !important;
+      }
+
+      /* Dark mode untuk SweetAlert */
+      .dark .swal2-popup {
+        background-color: rgb(31, 41, 55) !important;
+        color: rgb(243, 244, 246) !important;
+      }
+
+      .dark .swal2-title {
+        color: rgb(243, 244, 246) !important;
+      }
+
+      .dark .swal2-content {
+        color: rgb(156, 163, 175) !important;
+      }
+
+      /* Button Promo */
+      #applyPromoBtn {
+        background-color: #f97316 !important;
+        color: white !important;
+        border: none !important;
+        padding: 0.5rem 1rem !important;
+        border-radius: 0.5rem !important;
+        font-weight: 500 !important;
+        transition: all 0.2s ease !important;
+        cursor: pointer !important;
+      }
+
+      #applyPromoBtn:hover:not(:disabled) {
+        background-color: #ea580c !important;
+      }
+
+      #applyPromoBtn:disabled {
+        background-color: #9ca3af !important;
+        cursor: not-allowed !important;
+      }
+
+      /* Dark mode untuk button promo */
+      .dark #applyPromoBtn {
+        background-color: darkblue !important;
+      }
+
+      .dark #applyPromoBtn:hover:not(:disabled) {
+        background-color: blue !important;
+      }
+
+      .dark #applyPromoBtn:disabled {
+        background-color: #6b7280 !important;
+      }
+
+      #paymentModal {
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+      }
+
+      #paymentModal .bg-white {
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+      }
+
+      .dark #paymentModal .bg-white {
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+      }
+
+      #paymentModal > div {
+        animation: modalSlideIn 0.3s ease-out;
+      }
+
+      @keyframes modalSlideIn {
+        from {
+          opacity: 0;
+          transform: translateY(-20px) scale(0.95);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0) scale(1);
+        }
+      }
+
+      input[type="radio"] {
+        accent-color: #3b82f6;
+      }
+
+      .dark input[type="radio"] {
+        accent-color: #60a5fa;
+      }
+
+      input:focus,
+      select:focus,
+      button:focus {
+        outline: 2px solid #3b82f6 !important;
+        outline-offset: 2px !important;
+      }
+
+      .dark input:focus,
+      .dark select:focus,
+      .dark button:focus {
+        outline-color: #60a5fa !important;
+      }
+
+      .transaction-card {
+        transition: all 0.2s ease;
+      }
+
+      .transaction-card:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      }
+
+      .dark .transaction-card:hover {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      }
+
+      .stat-card {
+        transition: all 0.2s ease;
+      }
+
+      .stat-card:hover {
+        transform: translateY(-1px);
+      }
+
+      .max-h-96::-webkit-scrollbar {
+        width: 6px;
+      }
+
+      .max-h-96::-webkit-scrollbar-track {
+        background: rgb(243, 244, 246);
+        border-radius: 3px;
+      }
+
+      .dark .max-h-96::-webkit-scrollbar-track {
+        background: rgb(55, 65, 81);
+      }
+
+      .max-h-96::-webkit-scrollbar-thumb {
+        background: rgb(156, 163, 175);
+        border-radius: 3px;
+      }
+
+      .dark .max-h-96::-webkit-scrollbar-thumb {
+        background: rgb(107, 114, 128);
+      }
+
+      .max-h-96::-webkit-scrollbar-thumb:hover {
+        background: rgb(107, 114, 128);
+      }
+
+      .dark .max-h-96::-webkit-scrollbar-thumb:hover {
+        background: rgb(156, 163, 175);
+      }
+    </style>
+  </head>
+<body
+    class="font-poppins bg-gradient-to-br from-gray-300 to-slate-500 dark:from-gray-800 dark:to-gray-900 min-h-screen py-8 transition-colors duration-300"
+  >
     
 </body>
 </html>
