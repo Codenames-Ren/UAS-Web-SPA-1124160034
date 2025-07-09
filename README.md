@@ -241,7 +241,7 @@ Jika Anda memiliki saran untuk membuat proyek ini lebih baik, silakan fork repo 
 
 ## Lisensi
 
-Didistribusikan di bawah Lisensi MIT. Lihat `LICENSE.txt` untuk informasi lebih lanjut.
+Didistribusikan di bawah Lisensi MIT. Lihat `LICENSE` untuk informasi lebih lanjut.
 
 <!-- KONTAK -->
 
