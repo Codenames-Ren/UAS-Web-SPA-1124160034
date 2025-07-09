@@ -275,7 +275,7 @@ Sumber daya dan alat yang membantu proyek ini:
 [issues-shield]: https://img.shields.io/github/issues/Codenames-Ren/UAS-Web-SPA-1124160034.svg?style=for-the-badge
 [issues-url]: https://github.com/Codenames-Ren/UAS-Web-SPA-1124160034/issues
 [license-shield]: https://img.shields.io/github/license/Codenames-Ren/UAS-Web-SPA-1124160034.svg?style=for-the-badge
-[license-url]: https://github.com/Codenames-Ren/UAS-Web-SPA-1124160034/blob/master/LICENSE.txt
+[license-url]: https://github.com/Codenames-Ren/UAS-Web-SPA-1124160034/blob/master/LICENSE
 [HTML5.com]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
 [HTML5-url]: https://html.spec.whatwg.org/
 [TailwindCSS.com]: https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white
